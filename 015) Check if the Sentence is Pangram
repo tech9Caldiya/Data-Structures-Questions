@@ -1,0 +1,20 @@
+class Solution {
+    public boolean checkIfPangram(String sentence) {
+        boolean ans[] = new boolean[26]; // new boolean 
+        boolean check = false;
+        for(int i = 0; i<sentence.length() ; i++)
+        {
+            ans[ sentence.charAt(i)-97] = true;
+        }
+        for(int j = 0 ; j< ans.length ; j++) // j not i! 
+        {
+            if(ans[j] == false)
+            {
+                return false;
+            }
+        }
+        return true ;
+    }
+ }
+
+url : https://leetcode.com/problems/check-if-the-sentence-is-pangram/
