@@ -2,7 +2,6 @@ class Solution {
     public int[] buildArray(int[] nums) {
         int[] arr = nums;
         int[] ans = new int[nums.length] ;
-        // Arrays.sort(arr);
         for(int i = 0 ; i<arr.length ; i++)
         {
             ans[i] = nums[nums[i]] ;
