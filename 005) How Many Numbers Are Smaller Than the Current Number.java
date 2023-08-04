@@ -13,9 +13,7 @@ class Solution {
                     count++; 
                     arr[i] = count;
                 }
-            }
-           // my two loops i as well as
-            
+            }  
         }
         return arr;
 
