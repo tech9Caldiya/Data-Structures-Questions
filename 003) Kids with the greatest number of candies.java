@@ -6,7 +6,8 @@ class Solution {
           if(candies[i]>max)  max= candies[i];
        }
         List<Boolean> ans = new ArrayList<>();
-        for(int j=0; j<candies.length;j++ ){
+        for(int j=0; j<candies.length;j++ )
+        {
             if(candies[j] + extraCandies >= max) {
                ans.add(true);
             }  
