@@ -10,7 +10,6 @@ class Solution {
             p = p*a;
             n= n/10;
         }
-        
         int d= p-s;
       return d;  
     }
