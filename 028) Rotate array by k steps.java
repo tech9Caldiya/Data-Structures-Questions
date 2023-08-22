@@ -13,7 +13,7 @@ public class rotateAnArrayByKsteps {
       
         //for first part of array after rotation
         for(int i = n-k ; i<n ; i++){
-            ans[j++] = arr[i];
+            ans[j++] = arr[i]; //putting values of given array in answer array
         }
       
         //for second part of array
@@ -34,6 +34,7 @@ public class rotateAnArrayByKsteps {
         for(int i = 0 ; i< n ; i++){;
             arr[i] = sc.nextInt();
         }
+        
         System.out.println("enter k steps by which you want to rotate the array");
         int k = sc.nextInt();
         int[] ans = RotateArray(arr,k);
