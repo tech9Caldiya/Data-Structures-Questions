@@ -16,7 +16,6 @@ class Solution {
        result = str + " " + result;
       }
       i= j+1;
-      
     } 
        return result;     
     }
