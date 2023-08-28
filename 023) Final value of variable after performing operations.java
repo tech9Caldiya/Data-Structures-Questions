@@ -8,7 +8,6 @@ class Solution {
             {
                 X = X - 1;
             }
-            
             if("X++".equals(opp[i]) ||
             "++X".equals(opp[i]))
             {
