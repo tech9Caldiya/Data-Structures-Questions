@@ -7,7 +7,6 @@ class Solution {
         int start = 0;
         int end = ans.length-1;
         while(start<end){
-
         if(n%2 != 0)
         {
             ans[mid] = 0;
