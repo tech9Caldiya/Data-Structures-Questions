@@ -3,7 +3,6 @@ class Solution {
         int ans[] = new int[n];
         int mid = n/2 +1;
         int i = 1;
-    
         int start = 0;
         int end = ans.length-1;
         while(start<end){
