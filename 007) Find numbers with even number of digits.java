@@ -1,4 +1,5 @@
 class Solution {
+    
     public int findNumbers(int[] nums) {
         int ans = 0;
         int num = 0;
