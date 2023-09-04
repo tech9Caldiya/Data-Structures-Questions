@@ -13,7 +13,9 @@ class Solution {
                 count++;
             }   
         }
+            
         max = Math.max(count , max);
+            
     }
         // count ++;
         return max;   
